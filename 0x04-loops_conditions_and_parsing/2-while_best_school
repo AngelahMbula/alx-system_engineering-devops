@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Script displays best school 10times
-for ((i=0; i<10; i++));
+count=0
+while [ $count -lt 10 ]
 do
 echo "Best School"
+(( count++ ))
 done
