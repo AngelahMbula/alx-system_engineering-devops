@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script displays numbers from 1 to 10
-count=0
-while [ $count -lt 20 ]
+count=1
+while [ $count -le 20 ]
 do
 	echo "$count"
 	case $count in
