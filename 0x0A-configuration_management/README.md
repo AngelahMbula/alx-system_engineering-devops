@@ -28,8 +28,6 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 # 0. Create a file
 
-mandatory
-
 Using Puppet, create a file in /tmp.
 
 
@@ -49,7 +47,7 @@ File group is www-data
 File contains I love Puppet
 
 # 1. Install a package
-mandatory
+
 Using Puppet, install flask from pip3.
 
 Requirements:
@@ -58,7 +56,7 @@ Install flask
 Version must be 2.1.0
 
 # 2. Execute a command
-mandatory
+
 Using Puppet, create a manifest that kills a process named killmenow.
 
 Requirements:
