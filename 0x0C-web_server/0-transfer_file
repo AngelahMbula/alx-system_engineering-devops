@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Transfers file from our client to our server
+if [ $# -lt 4 ]
