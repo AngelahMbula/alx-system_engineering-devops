@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+# start apache inside docker
+echo "Hello Holberton" >> /etc/apache2.conf
+service apache2 start
